@@ -12,8 +12,8 @@ ADMIN_ID = 8467166339
 ADMIN_CONTACT = "@elitexconfig"
 BOT_NAME = "ELITE X CONFIG"
 
-# Database path - Render disk ke liye
-DB_PATH = '/data/EliteX.dp'
+# Database path - Render ke liye (bina /data/)
+DB_PATH = 'EliteX.dp'
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
@@ -452,4 +452,4 @@ def callback_handler(call):
         kb = InlineKeyboardMarkup(row_width=1)
         kb.add(InlineKeyboardButton("📁 Top Level (Main Category)", callback_data=f"newparent_{cat_id}_0"))
         for e in existing:
-            kb.add(InlineKeyboardButton(f"└ 📦 {e[1]}", callback_data
+            kb.add(InlineKeyboardButton(f"└ 📦 {e[1]}", callback_d
