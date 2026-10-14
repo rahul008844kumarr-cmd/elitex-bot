@@ -1,4 +1,4 @@
-aiogram
-python-dotenv
-aiohttp
-qrcode[pil]
+aiogram>=3.7,<4
+aiohttp>=3.9,<4
+python-dotenv>=1.0,<2
+qrcode[pil]>=7.4,<9
