@@ -1,2 +1,3 @@
-python-telegram-bot
-qrcode[pil]
+aiogram>=3.0.0
+aiohttp
+python-dotenv
