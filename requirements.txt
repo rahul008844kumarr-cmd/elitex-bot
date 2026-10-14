@@ -1,3 +1,4 @@
-aiogram>=3.0.0
-aiohttp
+aiogram
 python-dotenv
+aiohttp
+qrcode[pil]
