@@ -66,7 +66,7 @@ except ImportError:
 # ══════════════════════════════════════════════════════════════
 
 BASE_DIR = Path(__file__).resolve().parent
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("8606369071:AAEBxIgAM4nUD7lrCw3VArmeIek_zfktFAw", "").strip()
 if not BOT_TOKEN or ":" not in BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN missing/invalid. Set it in your environment or .env file; never hardcode it.")
 
