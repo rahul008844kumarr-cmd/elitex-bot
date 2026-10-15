@@ -1,21 +1,7 @@
-# ═══════════════════════════════════════════════════════════
-# ELITE X CONFIG — Python Dependencies
-# ═══════════════════════════════════════════════════════════
-
-# Telegram Bot
 aiogram==3.15.0
-
-# Web server (health check + endpoints)
 aiohttp==3.10.11
-
-# QR code generation
 qrcode[pil]==8.0
-
-# Pillow (image handling for QR)
 Pillow==10.4.0
-
-# Environment variables
 python-dotenv==1.0.1
-
-# Async helper
-asyncio-throttle==1.0.2
+pydantic==2.9.2
+pydantic-core==2.23.4
