@@ -31,7 +31,7 @@ from aiogram.types import (
 
 # ================= CONFIGURATION =================
 # Never put a live token in source code. Export BOT_TOKEN in your shell.
-BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+BOT_TOKEN = os.getenv("8754317781:AAG0LBlMn5mrkbDIlCBcs_OWZR4Uj70evWM", "").strip()
 ADMIN_ID = int(os.getenv("ADMIN_ID", "8467166339"))
 DB_PATH = os.getenv("ELITE_X_DB", "elite_x.db")
 
